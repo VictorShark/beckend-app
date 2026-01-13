@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: sgn-backend
+    env: docker
+    plan: free
+    dockerfilePath: ./Dockerfile
